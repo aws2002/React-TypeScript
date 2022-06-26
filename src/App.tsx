@@ -6,6 +6,7 @@ import Person from "./components/Person";
 import PersonList from "./components/PersonList";
 import Status from "./components/Status";
 import { FancyButton, SubmitButton } from './components/Button/Button'
+import { Counter } from "./components/state/Counter";
 export default function App() {
   const parsonName = {
     first: "Osama",
@@ -56,6 +57,7 @@ export default function App() {
         console.log("Clickd",event,i);
         
       }}/>
+      <Counter/>
     </div>
   );
 }
